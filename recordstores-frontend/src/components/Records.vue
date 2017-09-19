@@ -34,7 +34,7 @@
       searchTerm: function(searchTerm) {
         const baseUrl = "http://localhost:8090";
 
-        axios.get(baseUrl + '/records?artist=' + searchTerm)
+        axios.get(baseUrl + '/records?q=' + searchTerm)
           .then(response => {
             console.log(response)
             console.log(this.records)
