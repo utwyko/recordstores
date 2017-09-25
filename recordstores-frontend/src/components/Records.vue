@@ -9,6 +9,7 @@
         <th>Artist Name</th>
         <th>Title</th>
         <th>Condition</th>
+        <th>Price</th>
       </tr>
       </thead>
 
@@ -16,6 +17,7 @@
         <td>{{ record.artistName }}</td>
         <td>{{ record.title }}</td>
         <td>{{ record.condition }}</td>
+        <td>€ {{ record.priceInEuro }}</td>
       </tr>
     </table>
   </div>
